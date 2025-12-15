@@ -5,7 +5,7 @@ const app = express();
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.json({ message: "Backend NodeJS is running" });
+  res.json({ message: "Trần Tuấn Phát-Cuối Kỳ" });
 });
 
 const PORT = process.env.PORT || 3000;
